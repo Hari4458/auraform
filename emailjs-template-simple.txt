@@ -1,0 +1,29 @@
+SUBJECT: 🎨 New Contact Form Submission - {{service}}
+
+FROM: {{from_name}} <{{from_email}}>
+TO: auraformstudio.business@gmail.com
+
+Hi AuraForm Studio Team!
+
+You have received a new contact form submission:
+
+👤 CLIENT INFORMATION:
+Name: {{firstName}} {{lastName}}
+Email: {{from_email}}
+Phone: {{phone}}
+Company: {{company}}
+
+🎯 PROJECT DETAILS:
+Service: {{service}} ({{servicePrice}})
+Budget: {{budget}}
+Timeline: {{timeline}}
+
+💭 PROJECT MESSAGE:
+{{message}}
+
+📅 Received: {{timestamp}}
+
+You can reply directly to this email to contact the client.
+
+---
+AuraForm Studio Contact Form Submission
